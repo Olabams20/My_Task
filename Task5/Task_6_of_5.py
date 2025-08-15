@@ -1,0 +1,12 @@
+# Task6: Attendance Tracker
+days = ("Mon", "Tue", "Wed", "Thu", "Fri", "Sat", "Sun")
+months =  ("Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug","Sep", "Oct", "Nov", "Dec")
+print("Answers:")
+name = input("Name? ")
+gender = input("Gender? ")
+course_track = input("course track? ")
+print(f"Name: {name}")
+print(f"Gender: {gender}")
+print(f"Course track: {course_track}")
+print(f"Month: {months}")
+print(f"Day: {days}")
