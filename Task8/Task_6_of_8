@@ -1,0 +1,8 @@
+score = int(input("What's your test score? "))
+unilag_choice = input("Did you choose UNILAG? (yes/no) ").lower() == 'yes'
+o_level_grades = input("Do you have good O'level grades? (yes/no) ").lower() == 'yes'
+post_utme = input("Did you participate in Post-UTME? (yes/no) ").lower() == 'yes'
+admitted = (score >=200) and unilag_choice and o_level_grades and post_utme
+messages = {True: "Congratulations! You're in", False: "Sorry, try again next time!"}
+print("Admitted:", admitted)
+print("Message:", messages[admitted])

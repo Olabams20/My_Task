@@ -1,0 +1,21 @@
+# Comparing Ages
+age1 = int(input("Enter frist person's age: "))
+age2 = int(input("Enter second person's age: "))
+print(f"Is age1 equal to age2? : {(age1 == age2)}")
+print(f"Is age1  not equal to age2? : {(age1 != age2)}")
+print(f"Is age1 greater than age2? : {(age1 > age2)}")
+print(f"Is age1 less than age2? : {(age1 < age2)}")
+# Checking Scores
+score1 = int(input("Enter frist person's score: "))
+score2 = int(input("Enter second person's score: "))
+print(f"Is score1 equal to score2? : {(score1 == score2)}")
+print(f"Is score1 not equal to score2? : {(score1 != score2)}")
+print(f"Is score1 greter than score2? : {(score1 > score2)}")
+print(f"Is score1 less than score2? : {(score1< score2)}")
+# Measuring Heights
+height1 = int(input("Enter first person's height in cm: "))
+height2 = int(input("Enter second person's height in cm: "))
+print(f"Is height1 equal to height2? : {(height1 == height2)}")
+print(f"Is height1 not equal to height2? : {(height1 != height2)}")
+print(f"Is height1 greater than height2? : {(height1 > height2)}")
+print(f"Is height1 less than height2? : {(height1 < height2)}")

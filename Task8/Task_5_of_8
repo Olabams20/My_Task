@@ -1,0 +1,5 @@
+store ={'Book': 10, 'Pen': 20, 'Bag': 5}
+item = input("What do you want to buy? ")
+quantity = int(input("How many do you want to buy? "))
+store[item] = store.get(item, 0) - quantity
+print("Updated store:", store)
