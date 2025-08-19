@@ -1,3 +1,4 @@
+# Task5: Store Inventory Update
 store ={'Book': 10, 'Pen': 20, 'Bag': 5}
 item = input("What do you want to buy? ")
 quantity = int(input("How many do you want to buy? "))

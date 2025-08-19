@@ -1,3 +1,4 @@
+# Task6: Breakdown of the Admission Process
 score = int(input("What's your test score? "))
 unilag_choice = input("Did you choose UNILAG? (yes/no) ").lower() == 'yes'
 o_level_grades = input("Do you have good O'level grades? (yes/no) ").lower() == 'yes'

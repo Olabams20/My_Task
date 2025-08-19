@@ -1,3 +1,4 @@
+# Task3: Online Store Cart Calculation
 items = ["Book", "Pen", "Bag"]
 prices = {'Book': 500, 'Pen': 100, 'Bag': 2000}
 cart_total = 0
