@@ -22,6 +22,3 @@ def simulated_ussd_menu_interaction ():
             print("Invalide option")
         print("Transaction summary: Successful")
 simulated_ussd_menu_interaction()
-
-
-
