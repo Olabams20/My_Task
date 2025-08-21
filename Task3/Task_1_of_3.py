@@ -18,4 +18,3 @@ print(sum(1 for _ in text))
 # Given "Hello World", replace "World" with "Python".
 text = "Hello world"
 print(text.replace("world", "python"))
-
