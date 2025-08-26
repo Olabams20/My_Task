@@ -156,7 +156,7 @@ introduce(track = "AI Engineering",name = "Ngozi")   # HEre you notice that orde
 
 def introduce(name, track = "AI Engineering"):
     print("My name is", name)
-    print("I am learning", track".")
+    print("I am learning", track)
 
 # function call
 # Without specifying the default argument, but watch the ouput
