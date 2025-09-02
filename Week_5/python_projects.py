@@ -1,4 +1,4 @@
-# to_do_list.py
+# @title 2. To-Do List Application
 # Initialize tasks list
 tasks = []
 def add_task():
@@ -75,7 +75,7 @@ def main():
 main()
 
 
-
+# @title 13. Email Slicer(Extract Username from Email)
 def email_slicer(email):
     try:
         # Split the email at '@'
