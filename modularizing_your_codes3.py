@@ -87,10 +87,9 @@ class Student:
     def __init__(self, name, course):
         self.name = name         
         self.course = course
-
-print(Student.university)     
-print(student1.university)  
-print(student2.university)   
+        print(Student.university)     
+        print(student1.university)  
+        print(student2.university)   
 
 class Student:
     def __init__(self, name, course, level):
@@ -177,18 +176,15 @@ class BankAccount:
         """Generate a unique account number"""
         import random
         return f"01{random.randint(10000000, 99999999)}"
-
-
-# Attributes (characteristics)
-print(f"Owner: {adunni_account.owner}")
-print(f"Bank: {adunni_account.bank_name}")
-print(f"Account Number: {adunni_account.account_number}")
-
-# Methods (actions)
-print(adunni_account.deposit(25000))    
-print(adunni_account.withdraw(10000))  
-print(adunni_account.transfer(15000, "Sunday James"))  
-print(adunni_account.check_balance())   
+        # Attributes (characteristics)
+        print(f"Owner: {adunni_account.owner}")
+        print(f"Bank: {adunni_account.bank_name}")
+        print(f"Account Number: {adunni_account.account_number}")
+        # Methods (actions)
+        print(adunni_account.deposit(25000))    
+        print(adunni_account.withdraw(10000))  
+        print(adunni_account.transfer(15000, "Sunday James"))  
+        print(adunni_account.check_balance())   
 
 class NaijaPhone:
     def __init__(self, brand, model, network_provider):
@@ -402,11 +398,10 @@ class SimplePhone:
     def _transmit_to_tower(self):
         # Complex radio transmission here
         pass
-
-# User only needs to know the simple interface
-my_phone = SimplePhone("Tecno")
-print(my_phone.make_call("08012345678"))  # Simple to use
-print(my_phone.send_sms("How far?", "08098765432"))  # Don't need to know internals        
+    # User only needs to know the simple interface
+    # my_phone = SimplePhone("Tecno")
+    print(my_phone.make_call("08012345678"))  # Simple to use
+    print(my_phone.send_sms("How far?", "08098765432"))  # Don't need to know internals        
 
 # Parent class - Base Nigerian Person
 class NigerianPerson:
