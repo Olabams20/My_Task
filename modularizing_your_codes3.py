@@ -179,9 +179,6 @@ class BankAccount:
         return f"01{random.randint(10000000, 99999999)}"
 
 
-# Create an instance of BankAccount before using it
-adunni_account = BankAccount("Adunni Olaleye", "GTBank", 50000)
-
 # Attributes (characteristics)
 print(f"Owner: {adunni_account.owner}")
 print(f"Bank: {adunni_account.bank_name}")
