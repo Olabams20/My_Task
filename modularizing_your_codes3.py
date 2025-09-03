@@ -386,22 +386,22 @@ class SimplePhone:
         self._send_through_network()
         return f"SMS sent to {number}: '{message}'"
     
-    # Complex internal methods - hidden from user
-    def _establish_network_connection(self):
-        # Complex networking code here
-        pass
-    
-    def _encode_voice_signal(self):
-        # Complex audio processing here
-        pass
-    
-    def _transmit_to_tower(self):
-        # Complex radio transmission here
-        pass
-    # User only needs to know the simple interface
-    # my_phone = SimplePhone("Tecno")
-    print(my_phone.make_call("08012345678"))  # Simple to use
-    print(my_phone.send_sms("How far?", "08098765432"))  # Don't need to know internals        
+        # Complex internal methods - hidden from user
+        def _establish_network_connection(self):
+            # Complex networking code here
+            pass
+        
+        def _encode_voice_signal(self):
+            # Complex audio processing here
+            pass
+        
+        def _transmit_to_tower(self):
+            # Complex radio transmission here
+            pass
+        # User only needs to know the simple interface
+        my_phone = SimplePhone("Tecno")
+        print(my_phone.make_call("08012345678"))              # Simple to use
+        print(my_phone.send_sms("How far?", "08098765432"))   # Don't need to know internals        
 
 # Parent class - Base Nigerian Person
 class NigerianPerson:
